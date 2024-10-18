@@ -11,6 +11,11 @@ const routes = [
     path: '/data-lazy',
     name: 'dataLazy',
     component: () => import('../views/DataLazy.vue')
+  },
+  {
+    path: '/img-lazy',
+    name: 'imgLazy',
+    component: () => import('../views/ImgLazy.vue')
   }
 ]
 
