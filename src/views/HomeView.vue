@@ -7,7 +7,14 @@
 </template>
 
 <script>
+import * as xlsx from 'xlsx'
+import * as echarts from 'echarts'
+
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  created () {
+    console.log(xlsx)
+    console.log(echarts)
+  }
 }
 </script>
